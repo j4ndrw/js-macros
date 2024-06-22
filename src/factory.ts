@@ -1,3 +1,3 @@
 import { MacroImplementation } from './types';
 
-export const createMacro = <T>(macro: () => T): MacroImplementation<T> => macro;
+export const createMacro = <TArg extends any, TResult>(macro: (arg: TArg) => TResult): MacroImplementation<TArg, TResult> => macro;

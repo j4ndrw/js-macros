@@ -1,5 +1,7 @@
 import { example$ } from "./macros/example";
+import { square$ } from "./macros/square";
 
-const value = example$("something goes here");
+const example = example$("something goes here");
+const square = square$({ value: 2 });
 
-export { value };
+export { example, square };
