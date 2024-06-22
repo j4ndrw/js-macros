@@ -1,5 +1,5 @@
 {
-  "name": "js-macros",
+  "name": "example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,7 @@
     "clean": "rm -rf dist",
     "bundle": "vite build -c ./vite.config.mts",
     "emit-declarations": "tsup --config ./tsup.config.ts",
-    "build": "pnpm clean && pnpm bundle && pnpm emit-declarations",
-    "start": "pnpm build && node ./dist/index.js",
-    "test": "yarn vitest run --config ./vitest.config.mts"
+    "build": "pnpm clean && pnpm bundle && pnpm emit-declarations"
   },
   "keywords": [],
   "author": "",

@@ -26,8 +26,7 @@
       "ESNext.String"
     ]
   },
-  "include": ["./src/**/*.ts"],
-  "exclude": ["./example/**/*.ts"],
+  "include": ["./**/*.ts"],
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Strictest",
   "_version": "2.0.0"

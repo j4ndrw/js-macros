@@ -6,10 +6,10 @@ export default defineConfig({
   plugins: [babel()],
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/index.ts'),
+      entry: path.resolve(__dirname, 'index.ts'),
       name: 'index',
       formats: ['cjs'],
-      fileName: `index.js`,
+      fileName: `index`,
     },
   },
 });
